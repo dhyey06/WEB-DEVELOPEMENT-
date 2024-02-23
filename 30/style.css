@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+:root{
+    /* global variable */
+    --color: purple;
+    --seccolor: rgb(109, 63, 109);
+    --defpad: 23px;
+    --defop: 0.2;
+}
+
+ul{
+    display: flex;
+}
+
+ul li{
+    padding: var(--defpad);
+    opacity: var(--defop);
+    list-style: none; /* local variable */
+    padding: 34px;
+}
+
+ul li:first-child{
+    --color: rgb(146, 7, 65);
+    background-color: var(--color, blue);
+}
+.nav{
+    background-color: var(--color);
+    
+}
+.container{
+    background-color: var(--seccolor);
+    
+}

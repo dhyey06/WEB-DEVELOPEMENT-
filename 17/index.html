@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css selectors</title>
+    <style>
+        div{
+            /* element selector */
+            background-color: black;
+            color: red;
+        }
+        /* class selector */
+        .red{
+            background-color: black;
+            color: red;
+        }
+        /* id selector */
+        #green{
+            background-color: black;
+            color: green;
+        }
+        /* child selector */
+        div > p {
+            color: blue;
+            background-color: brown;
+        }
+        /* descendent selector */
+        span p {
+            color: yellow;
+            background-color: black;
+        }
+        /* universal selector */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        /* pseudo selector */
+        a:visited{
+            color: red
+        }
+        a:link{
+            color: green
+        }
+        a:active{
+            background-color: blue;
+        }
+        a:hover{
+            background-color: black;
+        }
+        /* p:first-child{
+            background-color: aqua;
+        } */
+    </style>
+</head>
+<body>
+    <div>
+        using element selector
+    </div>
+    
+    <div class="red">
+        using class selector
+    </div>
+
+    <div id="green">
+        using id selector
+    </div>
+
+    <div>
+        <p>
+            using child selector
+        </p>
+    </div>
+
+    <span>
+
+        <article>
+            <p>
+                using descendent selector
+            </p>
+        </article>
+    </span>
+    
+    <a href="https://www.google.com">google baba</a>
+    <a href="cornhub.com">cornhub</a>
+
+    <div class="one">
+        <p>using pseudo selctor(fisrstchild)</p>
+        <p>using pseudo selctor(fisrstchild)</p>
+    </div>
+    
+</body>
+</html>
