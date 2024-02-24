@@ -1,6 +1,22 @@
 :root{
-    --
+    --color: white;
+    --seccolor: black;
+}
+body{
+    background-color: var(--seccolor);
+
 }
 .nav{
+    background-color: var(--seccolor);
+}
 
+ul{
+    color: var(--color);
+    list-style: none;
+    display: flex;
+}
+
+ul li{
+    margin: 3px;
+    padding: 3px;
 }

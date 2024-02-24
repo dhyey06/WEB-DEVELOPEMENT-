@@ -1,0 +1,27 @@
+/* inline style > id selector > class or attributes selector > element selector > universal selector */
+        /* specificity=1 */
+        h1{
+            color: aqua;
+        }
+
+        /* specificity=10 */
+        .yellow{
+            color: yellow;
+        } 
+        
+        /* specificity=1+10 */
+        h1.cred{
+            color: red ;
+        }
+        
+        /* specificity=10 */
+        .cpurple{
+            color: purple;
+        }
+
+        /* attribute selector */
+        /* specificity=10 */
+        [data-x=a]{
+            background-color: black;
+            color: maroon;
+        }
