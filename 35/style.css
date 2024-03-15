@@ -1,0 +1,48 @@
+/* .box:first-child{
+    background-color: black;
+    color: white;
+}
+
+.box:first-line{
+    color: red;
+} */
+
+/* .boxes *{
+    color: blue;
+    border: 2px solid black;
+} */
+
+/* attribute selector */
+/* p, a, .box,[data-color="primary"]{
+    padding-top: 45px;
+} */
+
+/* .box:nth-child(odd){
+    background-color: aqua;
+} */
+
+/* .box:nth-last-child(1){
+    background-color: aqua;
+} */
+
+/* .boxes::before{
+    content: "yo my nigga!!";
+} */
+
+/* .boxes::after{
+    content: "yo my nigga!!";
+} */
+
+::selection{
+    color: aqua;
+    background-color: black;
+}
+
+.box::first-letter{
+    color: blueviolet;
+}
+
+input::placeholder{
+    color: rgb(134, 57, 57);
+    /* background-color: ; */
+}

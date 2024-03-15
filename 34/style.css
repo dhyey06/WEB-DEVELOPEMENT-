@@ -10,7 +10,7 @@ img{
     border: 2px solid red;
 }
 
-.card:nth-child(3){
+.card:nth-child(2){
     background-color: aqua;
-    clear: both;
+    /* clear: both; */
 }
