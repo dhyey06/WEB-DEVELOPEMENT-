@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: antiquewhite;
+    width: 50vw;
+    height: 40vh;
+}
+
+.box{
+    background-color: aquamarine;
+    width: 5vw;
+    height: 4vh;
+    /* transition-property: transform;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0ms; */
+    transition: all 0.5s cubic-bezier(0,-0.01, 0, 0.93)  0s;
+}
+
+.translate{
+    transform: translateX(10vw) translateY(10vh);
+    background-color: red;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Navigation with CSS Transformations</title>
+<style>
+    .nav-item {
+        transition: transform 0.3s ease;
+        text-decoration: none;
+        display: inline-block;
+        padding: 10px;
+        margin: 5px;
+        background-color: lightblue;
+        color: black;
+        border-radius: 5px;
+    }
+    .nav-item:hover, .nav-item:focus {
+        transform: scale(1.1);
+    }
+</style>
+</head>
+<body>
+
+<nav>
+    <a href="#" class="nav-item">Home</a>
+    <a href="#" class="nav-item">About</a>
+    <a href="#" class="nav-item">Services</a>
+</nav>
+
+</body>
+</html>

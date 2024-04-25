@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+<style>
+    body {
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 300px;
+    padding: 16px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 100px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+label {
+    display: block;
+    margin-top: 16px;
+}
+
+input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+}
+
+input[type="submit"] {
+    background-color: blue;
+    color: white;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+    margin-top: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: darkblue;
+}
+</style>
+</head>
+<body>
+    <div class="container">
+        <form action="/submit_login" method="post">
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="pwd">Password:</label><br>
+            <input type="password" id="pwd" name="pwd" required><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
