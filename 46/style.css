@@ -1,12 +1,16 @@
 .container{
-    background-color: rgba(189, 252, 252, 0.596);
+    background-color: rgba(241, 57, 57, 0.678);
     height: 80vh;
     width: 30vw;
+    display: flex;
+    align-items: end;
 }
 
 .box{
     width: 34px;
-    height: 45px;
+    height: 34px;
+    background-color: red;
+    border-radius: 69px;    
     /* animation-name: demo;
     animation-duration: 1s;
     animation-iteration-count: infinite;
@@ -15,8 +19,8 @@
     /* animation-direction: alternate-reverse; */
     /* animation-play-state: paused; */
     /* animation: name duration timing-function delay iteration-count direction fill-mode; */
-    animation: demo  1s cubic-bezier(0.65, 0.01, 0.35, 0.98)  1 ,
-               demo2 1s cubic-bezier(0.65, 0.01, 0.35, 0.98)  1 ;
+    /* animation: demo  1s cubic-bezier(0.65, 0.01, 0.35, 0.98)  1 ,
+               demo2 1s cubic-bezier(0.65, 0.01, 0.35, 0.98)  1 ; */
 }
 
 @keyframes demo{
