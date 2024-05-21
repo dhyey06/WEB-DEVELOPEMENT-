@@ -1,0 +1,8 @@
+img{
+    /* filter: blur(10px); */
+    /* filter: brightness(200%); */
+    filter: grayscale(100%) drop-shadow(16px 16px 20px black);
+    /* filter: sepia(100%); */
+    /* filter: drop-shadow(16px 16px 20px black); */
+    /* filter: invert(1); */
+}
