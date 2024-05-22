@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+.main{
+    background-image: url("assets/images/background_img.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    height: 70vh;
+    position: relative;
+}
+
+.main .box{
+    height: 70vh;
+    width: 100%;
+    opacity: 0.69;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav{
+    max-width: 75vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+nav img{
+    width: 114px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button{
+    position: relative;
+    z-index: 10;
+}
+
+nav select{
+    position: relative;
+    z-index: 10;
+}
+
+.hero{
+    height: calc(100% - 100px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;    
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    gap: 23px;
+    padding: 0 30px;
+}
+
+.one{
+    font-size: 25px;
+    text-align: center  ;
+}
+.two{
+    font-size: 24px;
+    text-align: center  ;
+}
+.three{
+    font-size: 20px;
+    text-align: center  ;
+}
+
+.seperation{
+    background-color: rgba(128, 128, 128, 0.274);
+    height: 8px;
+}
+
+.btn{
+    padding: 3px 8px;
+    font-weight: bold;
+    color: white;
+    background-color: white;
+    cursor: pointer;
+
+}
+
+.btn-red{
+    background-color: rgb(229, 9, 20);
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;  
+    font-weight: 400;  
+}
+
+.btn-red-sm{
+    background-color: rgb(229, 9, 20);
+}
+
+.main input{
+    padding: 9px 24px;
+    font-size: 12px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.76);
+    border: 1px solid rgba(136, 129, 129, 0.87);
+    color: white;
+    padding-right: 69px;
+}
+
+select{
+    padding: 3px 24px;
+    font-size: 15px;
+    border-radius: 4px;
+    background-color: rgba(23,23,23,0.534);
+    color: white;    
+}
+
+.hero-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.hero-sm-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+}
+
+.secimg1{
+    position: relative;
+}
+
+.secimg1 img{
+    width: 552px;
+    position: relative;
+    z-index: 10;
+    margin: 10px;
+}
+
+.secimg1 video{
+    position: absolute;
+    top: 64px;
+    right: 57px;
+    width: 422px;    
+    margin: 10px;
+}
+
+.first h2{
+    font-size: 38px;
+}
+
+.third video{
+    position: absolute;
+    top: 6px;
+    right: 55px;    
+    width: 341px;
+    margin: 33px;
+}
+
+.faq h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+.faq{
+    background-color: black;
+    color: white;
+    margin-top: 50px;
+}
+
+.faqbox:hover{
+    background-color: #414141;
+}
+
+.faqbox{
+    transition: all 200ms ease-out;
+    display: flex;
+    color: white;
+    background-color: rgb(45, 45, 45);
+    padding: 17px;
+    max-width: 60vw;
+    margin: 8px auto;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+footer{
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 14px;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer a{
+    color: white;
+    font-size: 10px;
+}
+
+footer .questions{
+    padding: 34px 0;
+    font-size: 12px;
+}
+
+.footeremail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 35px 0px 35px 0px;
+
+}
+
+.footeremail input{
+    padding: 9px 24px;
+    font-size: 12px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.76);
+    border: 1px solid rgba(136, 129, 129, 0.87);
+    color: white;
+    padding-right: 69px;
+}
+
+.footer-ready{
+    margin: 15px;
+}
