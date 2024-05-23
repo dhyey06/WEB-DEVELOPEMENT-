@@ -192,10 +192,11 @@ select{
 }
 
 .faqbox{
+    border-radius: 10px;
     transition: all 200ms ease-out;
     display: flex;
     color: white;
-    background-color: rgb(45, 45, 45);
+    /* background-color: rgb(45, 45, 45); */
     padding: 17px;
     max-width: 60vw;
     margin: 8px auto;
