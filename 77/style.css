@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: screen;
+    width: screen;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.card{
+    display: flex;
+    width: 50%;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    margin: 5px;
+}
+
+.image{
+    position: relative;
+    width: 25%;
+    height: 100%;
+}
+
+.image img{
+    border-radius: 5px;
+}
+
+.text{
+    padding-left: 10px;
+    width: 75%;
+    height: 100%;
+}
+
+.text h1,p{
+    padding: 2px 0;
+}
+
+.capsule{
+    height: 20px;
+    position: absolute;
+    bottom: 8px;
+    z-index: 10;
+    right: 8px;
+    color: white;
+    background-color: black;
+    opacity: 0.8;
+    padding: 3px;
+    border-radius: 5px;
+    font-size: small;
+}
