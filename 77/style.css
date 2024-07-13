@@ -14,7 +14,6 @@ html,body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    cursor: pointer;
     height: 100%;
     width: 100%;
 }
@@ -29,6 +28,7 @@ html,body{
     align-items: center;
     padding: 12px;
     margin: 5px;
+    cursor: pointer;
 }
 
 .image{
@@ -63,4 +63,8 @@ html,body{
     padding: 3px;
     border-radius: 5px;
     font-size: small;
+}
+
+button{
+    cursor: pointer;
 }
