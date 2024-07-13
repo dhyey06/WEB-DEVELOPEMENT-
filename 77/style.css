@@ -70,7 +70,14 @@
     font-size: small;
 }
 
+.button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 button{
+    margin: 10px 50px;
     background-color: black;
     opacity: 0.9;
     color: white;

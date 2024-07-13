@@ -35,3 +35,7 @@ document.querySelector(".container").innerHTML = document.querySelector(".contai
 function addcard(){
     card("Title", "The Kittler", 560000, 7, "6:06", "https://i.ytimg.com/vi/AkCV9JRuEcg/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCj2Bpa-4u8D7HdSNXbfmAtTn5mfQ")
 }
+
+function removecard(){
+    document.querySelector(".card").remove();
+}
