@@ -33,9 +33,19 @@ document.querySelector(".container").innerHTML = document.querySelector(".contai
 
 
 function addcard(){
-    card("Title", "The Kittler", 560000, 7, "6:06", "https://i.ytimg.com/vi/AkCV9JRuEcg/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCj2Bpa-4u8D7HdSNXbfmAtTn5mfQ")
+    let a = Math.random();
+    console.log(a);
+    if (a<=0.5) {
+        card("Title", "The Kittler", 560000, 7, "6:06", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScQyummWP-F7ezd__TXwuF7GaEyWR_5nvZpw&s")
+    } else {
+        card("Title 2", "The Kittler 2", 5600000, 2, "26:06", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScQyummWP-F7ezd__TXwuF7GaEyWR_5nvZpw&s")
+    }
+
+
+    
 }
 
 function removecard(){
     document.querySelector(".card").remove();
 }
+
