@@ -83,7 +83,7 @@ async function displayAlbums() {
     for (let index = 0; index < array.length; index++) {
         const e = array[index];
 
-        if (e.href.includes("/songs")) {
+        if (e.href.includes("/songs") && !e.href.includes(".htaccess")) {
             let folder = e.href.split("/").slice(-2)[0];
             let a = await fetch(`/songs/${folder}/info.json`);
             let response = await a.json();
@@ -169,20 +169,6 @@ async function main() {
         }
 
     })
-
-    previous.addEventListener("click", () => {
-        if (currentIndex - 1 >= 0) {
-            playMusic(songs[currentIndex - 1]);
-            currentIndex--;
-        }
-    });
-
-    next.addEventListener("click", () => {
-        if (currentIndex + 1 < songs.length) {
-            playMusic(songs[currentIndex + 1]);
-            currentIndex++;
-        }
-    });
     document.querySelector(".range").getElementsByTagName("input")[0].value = 100;
     document.querySelector(".range").getElementsByTagName("input")[0].addEventListener("change", (e) => {
         currentsong.volume = parseInt(e.target.value) / 100;
