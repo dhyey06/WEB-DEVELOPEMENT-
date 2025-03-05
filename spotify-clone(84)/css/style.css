@@ -244,11 +244,11 @@ body{
     scale: 1.2;
 }
 
-.songlist ul{
+.songList ul{
     padding: 0 12px;;
 }
 
-.songlist ul li{
+.songList ul li{
     list-style-type: decimal;
     display: flex;
     justify-content: space-between;
@@ -264,13 +264,13 @@ body{
     transition: background-color 0.3s ease-out, border-color 0.3s ease-out, box-shadow 0.3s ease-out !important;
 }
 
-.songlist ul li:hover {
+.songList ul li:hover {
     background-color: #353434;
     border-color: #353434;
     box-shadow: 0 0 10px #353434;
 }
 
-.songlist{
+.songList{
     overflow-y: scroll;
     max-height: 50vh;
 }
@@ -285,7 +285,6 @@ body{
     border: 2px solid white;
     border-radius: 10px;
     position: relative;
-    top: 34px;
     cursor: pointer;
 }
 
@@ -342,7 +341,7 @@ body{
 }
 
 .range{
-    padding-bottom: 4px;
+    padding-top: 5px;
 }
 
 input{
